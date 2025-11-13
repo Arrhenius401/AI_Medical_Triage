@@ -1,6 +1,5 @@
 package com.dd.ai_medical_triage.Service.Impl;
 
-import com.baomidou.mybatisplus.extension.service.IService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.dd.ai_medical_triage.Entity.Patient;
 import com.dd.ai_medical_triage.Mapper.PatientMapper;
