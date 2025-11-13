@@ -41,10 +41,6 @@ public class LoginResultDTO {
         @Schema(description = "头像URL", example = "https://example.com/avatar.jpg")
         private String avatarUrl;
 
-        /** 用户信用分 */
-        @Schema(description = "用户信用分", example = "100")
-        private Integer creditScore;
-
         /** 是否是管理员 */
         @Schema(description = "是否是管理员", example = "false")
         private Boolean isAdmin;
