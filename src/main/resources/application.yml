@@ -1,21 +1,16 @@
-# Application Name (Common to All Environments)
+# 应用程序名称
 spring:
   application:
     name: AI_Medical_Triage
-  # The active environment (switched using this parameter: dev/test/prod, etc.)
+  # 使用的环境（dev, test, prod)
   profiles:
     active: dev
-  # General Framework Configuration (Shared by All Environments)
+  # 全局框架配置
   main:
     allow-circular-references: true
     allow-bean-definition-overriding: true
-  ai:
-    chat:
-      client:
 
-
-
-# MyBatis General Configuration (Basic Configuration Shared Across All Environments)
+# MyBatis 全局配置
 mybatis-plus:
   type-aliases-package: com.dd.ai_medical_triage.entity
   type-handlers-package: com.dd.ai_medical_triage.handler
@@ -23,6 +18,12 @@ mybatis-plus:
     map-underscore-to-camel-case: true
     cache-enabled: true
 
-# Default port (can be overridden by environment configuration)
+# 默认端口
 server:
   port: 8085
+
+# 日志配置
+logging:
+  level:
+    root: error
+    org.springframework.ai.chat.client: DEBUG

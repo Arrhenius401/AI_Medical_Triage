@@ -194,10 +194,7 @@
         <!-- 1. 大语言模型依赖（以 OpenAI 为例，提供嵌入向量生成能力） -->
         <dependency>
             <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-bom</artifactId>
-            <version>1.0.3</version>
-            <type>pom</type>
-            <scope>import</scope>
+            <artifactId>spring-ai-starter-model-openai</artifactId>
         </dependency>
 
         <!-- 2. 向量存储核心抽象（必选，提供 VectorStore 接口） -->
