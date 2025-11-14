@@ -1,4 +1,4 @@
-package com.dd.ai_medical_triage.Mapper;
+package com.dd.ai_medical_triage.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.dd.ai_medical_triage.Entity.Patient;
