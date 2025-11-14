@@ -9,6 +9,11 @@ spring:
   main:
     allow-circular-references: true
     allow-bean-definition-overriding: true
+  ai:
+    chat:
+      client:
+
+
 
 # MyBatis General Configuration (Basic Configuration Shared Across All Environments)
 mybatis-plus:
