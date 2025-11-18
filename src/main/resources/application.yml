@@ -34,3 +34,9 @@ mybatis-plus:
 # Default port (can be overridden by environment configuration)
 server:
   port: 8085
+
+# 日志配置
+logging:
+  level:
+    root: error
+    org.springframework.ai.chat.client: DEBUG
